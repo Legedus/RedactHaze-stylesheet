@@ -1873,7 +1873,7 @@ strong.important_text, strong.important_text_alt, .invalid, .warning, .new, .err
 	-webkit-border-radius: 2px !important;
 	-moz-border-radius: 2px !important;
 	border-radius: 2px !important;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 .message_table>tbody>tr>td>strong.important_text_alt {
     color: #82ff6e !important;
