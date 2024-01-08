@@ -19,20 +19,21 @@ High-DPI images: Phlo
 html {
     width: 100%;
 }
+body,html {
+    width: 100%
+}
+
 body {
-    background-image: url('./images/backgrounds/Dark-down.svg');
-    background-repeat: xy;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: relative;
+    background-size: 137px 159px;
+    color: #999496;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    margin: 0;
+    min-height: 100%;
+    min-width: 950px;
+    overflow-wrap: break-word;
+    position: relative;
     background-color: #202224;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #fff;
+    background-image: url(../assets/backgrounds/Dark-down.svg);
 }
 .forum_post pre {
     max-width: 660px;
