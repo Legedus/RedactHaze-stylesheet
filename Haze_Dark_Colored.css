@@ -21,14 +21,14 @@ html {
 }
 body {
     background-image: url('./images/backgrounds/Dark-down.svg');
-    background-repeat: no-repeat;
+    background-repeat: xy;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
-    background-color: #212121;
+    background-position: relative;
+    background-color: #202224;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
